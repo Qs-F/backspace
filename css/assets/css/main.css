@@ -1,0 +1,47 @@
+/*
+Error: Invalid CSS after "...ort "variables"": expected "{", was ";"
+        on line 14 of /Users/QsF/GoogleDrive/dev-root-mac/Develop/go/src/localhost/tmp/fSpVt/backspace/assets/css/main.scss
+
+9:  *  Designer: Michael Rose
+10:  *  Twitter: http://twitter.com/mmistakes
+11:  *
+12: *\/
+13: 
+14: @import "variables";
+15: 
+16: /*
+17:    Vendor
+18:    ========================================================================== *\/
+19: 
+
+Backtrace:
+/Users/QsF/GoogleDrive/dev-root-mac/Develop/go/src/localhost/tmp/fSpVt/backspace/assets/css/main.scss:14
+/Users/QsF/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:1278:in `expected'
+/Users/QsF/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:1208:in `expected'
+/Users/QsF/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:1203:in `tok!'
+/Users/QsF/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:677:in `block'
+/Users/QsF/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:670:in `ruleset'
+/Users/QsF/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:696:in `block_child'
+/Users/QsF/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:686:in `block_contents'
+/Users/QsF/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:137:in `stylesheet'
+/Users/QsF/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:41:in `parse'
+/Users/QsF/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:414:in `_to_tree'
+/Users/QsF/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Users/QsF/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Users/QsF/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/Users/QsF/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/QsF/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/QsF/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/QsF/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Users/QsF/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+/Users/QsF/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/QsF/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/exec/base.rb:52:in `parse'
+/Users/QsF/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/exec/base.rb:19:in `parse!'
+/Users/QsF/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/sass-3.5.5/bin/sass:13:in `<top (required)>'
+/Users/QsF/.rbenv/versions/2.5.0/bin/sass:23:in `load'
+/Users/QsF/.rbenv/versions/2.5.0/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...ort \"variables\"\": expected \"{\", was \";\"\A         on line 14 of /Users/QsF/GoogleDrive/dev-root-mac/Develop/go/src/localhost/tmp/fSpVt/backspace/assets/css/main.scss\A \A 9:  *  Designer: Michael Rose\A 10:  *  Twitter: http://twitter.com/mmistakes\A 11:  *\A 12: */\A 13: \A 14: @import \"variables\";\A 15: \A 16: /*\A 17:    Vendor\A 18:    ========================================================================== */\A 19: "; }

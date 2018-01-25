@@ -25,10 +25,11 @@ owner:
   flickr:         
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    https://plus.google.com/+BackspaceFmHome
+  google:
+    plus:    https://plus.google.com/+BackspaceFmHome
+    analytics:   UA-48511878-1
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   UA-48511878-1
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
@@ -36,24 +37,17 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Home
-    url: /
-  - title: Blog
-    url: https://medium.com/backstage-of-backspace
-    external: true
-  - title: iTunes
-    url: https://itunes.apple.com/jp/podcast/backspace.fm/id830709730
-    external: true
-  - title: Calendar
-    url: https://www.google.com/calendar/embed?src=je3ul6a9tp9esq6efrouf1ht6c%40group.calendar.google.com&ctz=Japan/Tokyo
-    external: true
-  - title: Live
-    url: /live/
-
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Los_Angeles
 future:      true
 highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
 markdown:    kramdown
 safe:        true
 lsi:         false
@@ -62,4 +56,4 @@ lsi:         false
 permalink:   /:categories/:title/
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
