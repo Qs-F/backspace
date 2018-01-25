@@ -3,20 +3,25 @@
    ========================================================================== */
 
 .navigation-wrapper {
+  background-color: $black;
+  display: block;
   text-align: center;
   @include clearfix;
 
+  nav {
+    box-shadow: green 0 0 320px;
+    height: 44px;
+  }
+
   ul {
     display: inline-block;
-    width: 100%;
-    vertical-align: top;
     margin: 0 0 50px;
     padding: 4px 20px;
-    background-color: $black;
+    vertical-align: top;
 
     @include media($medium) {
       width: auto;
-      @include rounded(0 0 10px 10px);
+      // @include rounded(0 0 10px 10px);
     }
 
     @include clearfix;
@@ -51,7 +56,7 @@
     }
 
     color: $white;
-    @include rounded(4px);
+    // @include rounded(4px);
 
     &:hover {
       background-color: lighten($black, 10);
@@ -64,7 +69,6 @@
    ========================================================================== */
 
 #site-nav {
-  display: none;
   z-index: 5;
 
   @include media($medium) {
